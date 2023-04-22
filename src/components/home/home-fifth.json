@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_home_fifths",
+  "info": {
+    "displayName": "HomeFifthCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ServiceIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ServiceCardTitle": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "ServiceCardExcerpt": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

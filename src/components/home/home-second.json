@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_home_home_seconds",
+  "info": {
+    "displayName": "HomeSecond",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ShowDesc": {
+      "type": "richtext",
+      "required": true
+    },
+    "HiddenDesc": {
+      "type": "richtext",
+      "required": true
+    },
+    "Img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "List": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.home-second-list"
+    }
+  }
+}

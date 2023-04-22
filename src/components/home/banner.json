@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_home_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BannerTitle": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "InfoSectionFast": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "PhoneLink": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "WorkTime": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "PhoneNumber": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "BannerBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_home_thirds",
+  "info": {
+    "displayName": "HomeThird"
+  },
+  "options": {},
+  "attributes": {
+    "SimplePartOfTitle": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "StyledPartOfTitle": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "SectionImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

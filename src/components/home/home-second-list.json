@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_home_second_lists",
+  "info": {
+    "displayName": "HomeSecondList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ServiceText": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

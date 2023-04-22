@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.header-logo",
+      "required": true
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.header-links",
+      "required": true
+    }
+  }
+}

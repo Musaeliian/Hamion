@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_service_service_banners",
+  "info": {
+    "displayName": "ServiceBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BannerSubTitle": {
+      "type": "string",
+      "unique": true
+    },
+    "FastSection": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "PhoneNumber": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "PhoneLink": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "WorkSection": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "BannerBackground": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

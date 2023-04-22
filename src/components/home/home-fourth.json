@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_home_home_fourths",
+  "info": {
+    "displayName": "HomeFourth",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Background": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Counters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.home-fourth-counters",
+      "required": true
+    }
+  }
+}

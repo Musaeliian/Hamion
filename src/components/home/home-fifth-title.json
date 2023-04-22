@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_home_fifth_titles",
+  "info": {
+    "displayName": "HomeFifthTitle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ServiceCardSectionTitle": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "ServiceCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.home-fifth",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_home_sevenths",
+  "info": {
+    "displayName": "HomeSeventh"
+  },
+  "options": {},
+  "attributes": {
+    "SectionSimpleTitle": {
+      "type": "string",
+      "required": true
+    },
+    "SectionColoredTitle": {
+      "type": "string",
+      "required": true
+    },
+    "SectionDesc": {
+      "type": "richtext",
+      "required": true
+    },
+    "SectionIMG": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

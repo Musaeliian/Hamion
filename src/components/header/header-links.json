@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_header_header_links",
+  "info": {
+    "displayName": "HeaderLinks"
+  },
+  "options": {},
+  "attributes": {
+    "Home": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Services": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Blog": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Contact": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}

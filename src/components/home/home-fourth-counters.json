@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_home_fourth_counters",
+  "info": {
+    "displayName": "HomeFourthCounters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CounterTitle": {
+      "type": "string",
+      "required": true
+    },
+    "FontAwesomeIconClass": {
+      "type": "string",
+      "required": true
+    },
+    "CounterQuantity": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

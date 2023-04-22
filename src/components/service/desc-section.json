@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_service_desc_sections",
+  "info": {
+    "displayName": "DescSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SImpleDescTitle": {
+      "type": "string",
+      "unique": false
+    },
+    "ColoredDescTitle": {
+      "type": "string",
+      "unique": false
+    },
+    "Desc": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescSectionIMG": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

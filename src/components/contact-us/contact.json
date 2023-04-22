@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_contact_us_contacts",
+  "info": {
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FontAwesomeIconClass": {
+      "type": "string",
+      "required": true
+    },
+    "TextContact": {
+      "type": "string",
+      "required": true
+    },
+    "LinkContact": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
