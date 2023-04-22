@@ -3,9 +3,9 @@ services:
   - type: web
     name: webdis
     env: docker
-    repo: https://github.com/render-examples/webdis.git # optional
+    repo: https://github.com/Musaeliian/Hamion
     region: oregon # optional (defaults to oregon)
-    plan: standard # optional (defaults to starter instance type)
+    plan: free # optional (defaults to starter instance type)
     branch: master # optional (defaults to master)
     rootDir: webdis
     dockerCommand: ./webdis.sh # optional (defaults to Dockerfile command)
